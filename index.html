@@ -22,10 +22,10 @@
         <br>
         <h3>Pick your favorite Thai Food dish:</h3> 
         <select class="form-control" id="food">
-          <option value="padThai">Pad Thai</option>
-          <option value="drunkenNoodle">Drunken Noodles</option>
-          <option value="yellowCurry">Yellow Curry</option>
-          <option value="mangoStickyRice">Mango Sticky Rice</option>
+          <option value="Pad Thai">Pad Thai</option>
+          <option value="Drunken Noodle">Drunken Noodles</option>
+          <option value="Yellow Curry">Yellow Curry</option>
+          <option value="Mango Sticky Rice">Mango Sticky Rice</option>
         </select>
         <br>
         <h3>Pick your favorite ice cream flavor:</h3>
@@ -43,13 +43,13 @@
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="flavor" value="cookiesandcream">
+            <input type="radio" name="flavor" value="cookies and cream">
             Cookies and Cream
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="flavor" value="cookiedough" checked>
+            <input type="radio" name="flavor" value="cookie dough" checked>
             Cookie Dough
           </label>
         </div>
@@ -65,6 +65,12 @@
         </div>
         <button type="submit" class="btn btn-warning">Get your results!</button>
       </form>
+      <br>
+      <div id="results">
+        <h1>Here are your results:</h1>
+        <p>Hello, <span class="name"></span>. You were born on <span class="dob"></span>, your favorite Thai Food dish is <span class="food"></span>, your favorite color is <span class="color"></span>, and your go to ice cream is <span class="flavor"></span>.</p>
+      </div>
     </div>
+    
   </body>
 </html>
