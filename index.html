@@ -11,7 +11,60 @@
   </head>
   <body>
     <div class="container">
-
+      <h1>Survey</h1>
+      <hr>
+      <form id="survey">
+        <div class="form-group">
+          <h3>Please enter your name below:</h3>
+          <label for="name"></label>
+          <input id="name" class="form-control" type="text">
+        </div>
+        <br>
+        <h3>Pick your favorite Thai Food dish:</h3> 
+        <select class="form-control" id="food">
+          <option value="padThai">Pad Thai</option>
+          <option value="drunkenNoodle">Drunken Noodles</option>
+          <option value="yellowCurry">Yellow Curry</option>
+          <option value="mangoStickyRice">Mango Sticky Rice</option>
+        </select>
+        <br>
+        <h3>Pick your favorite ice cream flavor:</h3>
+        <div class="radio">
+          <label>
+            <input type="radio" name="flavor" value="chocolate">
+            Chocolate
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="flavor" value="vanilla">
+            Vanilla
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="flavor" value="cookiesandcream">
+            Cookies and Cream
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="flavor" value="cookiedough" checked>
+            Cookie Dough
+          </label>
+        </div>
+        <br>
+        <h3>Pick your favorite color:</h3>
+        <div class="form-group">
+          <label for="color"></label>
+          <input id="color" class="form-control" type="color">
+        </div>
+        <div class="form-group">
+          <label for="dob">Date of birth:</label>
+          <input id="dob" class="form-control" type="date">
+        </div>
+        <button type="submit" class="btn btn-warning">Get your results!</button>
+      </form>
     </div>
   </body>
 </html>
